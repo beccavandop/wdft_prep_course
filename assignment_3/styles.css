@@ -1,4 +1,3 @@
-
 /* DO NOT CHANGE THESE STYLES */
 span 
 {
@@ -28,30 +27,44 @@ div
 /***************************/
 
 /* FIRST ROW : FLOATS; */
-.a1 {
+ .a1 {
+	float:right;
 }
 
 .b1 {
+	float:left;
+	margin-left: 100px;
+
 }
 
 .c1 {
+	float: right;
 }
 
 .d1 {
+	float: left;
+	margin-left: -203px;
 }
+
 
 /* SECOND ROW : DISPLAY */
 
 .a2 {
+	display: inline-block;
 }
 
 .b2 {
+	display: none;
 }
 
 .c2 {
+	width:20px;
+	height: 20px;
+	display: inline-block
 }
 
 .d2 {
+	display: block;
 }
 
 /* THIRD ROW : POSITION */
@@ -60,10 +73,21 @@ div
 }
 
 .b3 {
+	position: relative;
+	left: 30px;
+	top:-50px;
 }
 
 .c3 {
+	position:relative;
+	left:1000px;
+	top: 50px;
+
+
 }
 
 .d3 {
+		position: fixed;
+   left: 600px;
+   top:300px;
 }
