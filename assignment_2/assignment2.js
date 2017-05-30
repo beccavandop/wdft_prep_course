@@ -5,7 +5,7 @@ Create a for loop that prints out the numbers 1 to 100 in the console.
 
  var points = new Array(100);
         for (var i = 0; i < 100; i++) {
-            points[i] = i + 1; //This populates the array.  +1 is necessary because arrays are 0 index based and you want to store 1-100 in it, NOT 0-99.
+            points[i] = i + 1; 
         }
 
         for (var i = 0; i < points.length; i++) {
